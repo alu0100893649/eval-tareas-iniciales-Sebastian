@@ -44,7 +44,7 @@ que permite la creación de material desde local.
 
 * Pasos
  1. Accedemos a la página de __GitBook Desktop__
-    ![GitBook Desktop Webpage](https://ULL-ESIT-PL-1617.github.io/tareas-iniciales-sje/cap5_gitbook/images/ImageAGitBook.jpg)    
+    ![GitBook Desktop Webpage](/images/ImageAGitBook.jpg)    
 
  2. Al descargar el ejecutable, lo lanzamos, activando una ventana del sistema
     para comprobar los permisos de administrador.
@@ -52,4 +52,4 @@ que permite la creación de material desde local.
 
 La instalación es simple y rápida, y deja al alcance del usuario la creación de contenido desde el primer momento.
 
-![GitBook Desktop Interface](https://ULL-ESIT-PL-1617.github.io/tareas-iniciales-sje/cap5_gitbook/images/ImageBGitBook.jpg)
+![GitBook Desktop Interface](/images/ImageBGitBook.jpg)
