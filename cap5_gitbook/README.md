@@ -28,7 +28,7 @@ web como por pdf.
         > $ gitbook init
     
     - Para crear el libro en otra carpeta solo tenemos que indicar la dirección de destino:
-        > $ gitbook init ./<ruta implícita>
+        > $ gitbook init ./ruta_implícita
     
     - Para fabricar una vista previa del GitBook:
         > $ gitbook serve
@@ -44,7 +44,7 @@ que permite la creación de material desde local.
 
 * Pasos
  1. Accedemos a la página de __GitBook Desktop__
-    ![GitBook Desktop Webpage](tareas_iniciales_tutorial/cap5gitbook/images/ImageAGitBook.png)    
+    ![GitBook Desktop Webpage](/cap5_gitbook/images/ImageAGitBook.png)    
 
  2. Al descargar el ejecutable, lo lanzamos, activando una ventana del sistema
     para comprobar los permisos de administrador.
@@ -52,4 +52,4 @@ que permite la creación de material desde local.
 
 La instalación es simple y rápida, y deja al alcance del usuario la creación de contenido desde el primer momento.
 
-![GitBook Desktop Interface](tareas_iniciales_tutorial/cap5gitbook/images/ImageBGitBook.png)
+![GitBook Desktop Interface](/cap5_gitbook/images/ImageBGitBook.png)
