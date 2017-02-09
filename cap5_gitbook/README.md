@@ -4,7 +4,7 @@
 
 ## Introducción a GitBook
 
-[GitBook](https://www.gitbook.com/) es una plataforma de documentación y publicación de archivos mediante [MarkDown](https://markdown.es/), 
+[GitBook](https://www.gitbook.com/) es una __plataforma de creación, documentación y publicación de contenido__ mediante [MarkDown](https://markdown.es/), 
 un lenguaje de etiquetado. Fue creado en 2014 con el objetivo de ofrecer una documentación simple y elegante, evitándole 
 una mayor carga de trabajo al desarrollador, al creador de contenido. Esta plataforma es utilizada tanto para documentación 
 software como libros técnicos, material de aprendizaje..., y da la posibilidad de publicar el contenido redactada via 
@@ -43,12 +43,12 @@ Existe una versión de escritorio de GitBook, llamada [GitBook Desktop](https://
 que permite la creación de material desde local. 
 
 * Pasos
- 1. Accedemos a la página de [GitBook Desktop](https://www.gitbook.com/editor)
+ 1. Accedemos a la página de __GitBook Desktop__
     ![GitBook Desktop Webpage](https://ULL-ESIT-PL-1617.github.io/tareas-iniciales-sje/cap5_gitbook/images/ImageAGitBook.jpg)    
 
  2. Al descargar el ejecutable, lo lanzamos, activando una ventana del sistema
     para comprobar los permisos de administrador.
- 3. Tras ejecutar GitBook Desktop, se instalará en un momento.
+ 3. Tras ejecutar __GitBook Desktop__, se instalará en un momento.
 
 La instalación es simple y rápida, y deja al alcance del usuario la creación de contenido desde el primer momento.
 
