@@ -23,4 +23,8 @@ los siguientes pasos para completar la instalación.
 
     i) Ejecutamos el instalador descargado
     
-    ![Imagen1](cap1_node.js/images/1.png)
+    ![Imagen1](/cap1_node.js/images/1.png)
+    
+    ii) Aceptamos los términos del contrato de licencia
+    
+    ![Imagen2](/cap1_node.js/images/2.png)
