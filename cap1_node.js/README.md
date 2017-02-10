@@ -21,10 +21,10 @@ Como se mencionó anteriormente en este tutorial se tratará la instalación med
 lo que descargamos el Windows Installer de la versión recomendada LTS. Cuando la descarga haya finalizado seguimos
 los siguientes pasos para completar la instalación.
 
-    i) Ejecutamos el instalador descargado
+i) Ejecutamos el instalador descargado
     
-    ![Imagen1](tareas-iniciales-sje/cap1_node.js/images/1.png)
+![Imagen1](/cap1_node.js/images/1.png)
     
-    ii) Aceptamos los términos del contrato de licencia
+ii) Aceptamos los términos del contrato de licencia
     
-    ![Imagen2](tareas-iniciales-sje/cap1_node.js/images/2.png)
+![Imagen2](/cap1_node.js/images/2.png)
