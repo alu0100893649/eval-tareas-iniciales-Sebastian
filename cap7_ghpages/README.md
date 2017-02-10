@@ -25,6 +25,7 @@ mediante el comando **git commit -m _nombre del commit_** y de su push hacia el 
 > proporcionado en la página del repositorio. Para subirlo, desde el programa clickaremos en el botón **Sync**.
 
 >Para una guía mas gráfica se recomienda visitar [esta página](https://pages.github.com/)
+
 ## GH-Pages para proyectos
 ### Utilidad
 En determinadas ocasiones, un proyecto es dinámico y no tiene sólo una salida. Esto es, cada cierto tiempo, el proyecto ha de renovarse. Este es uno de los
