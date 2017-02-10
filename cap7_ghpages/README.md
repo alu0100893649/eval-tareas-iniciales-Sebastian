@@ -39,4 +39,3 @@ Después seguiremos los pasos detallados a continuación:
 2. Enviaremos un commit que contenga todos los ficheros necesarios para la página web usando los comandos especificados en el **punto 4** de la Creación de GH Pages personales.
 3. Iremos a la configuración de nuestro repositorio y haremos _scroll_ hasta la opción de **GitHub Pages**. Una vez allí seleccionaremos la rama y clickaremos **Save** o guardar.
 > Si queremos una plantilla para la página web, en la opción de **GitHub Pages** también se nos ofrece una amplia variedad de temas para elegir.
-![serebrito](https://yt3.ggpht.com/-FJXWJ1x1bEQ/AAAAAAAAAAI/AAAAAAAAAAA/ZtyuZ-elFr4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg)
