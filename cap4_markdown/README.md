@@ -68,3 +68,7 @@ sobre la imagen.
 
 **Código explícito**: Para escribir de forma explícita un código que de otra forma
 daría lugar a un uso de Markdown, se rodea del símbolo ` (acento grave).
+
+### Links de interés
+Si quieres aprender a usar Markdown de una forma más interactiva, clicka 
+[aquí](http://www.markdowntutorial.com/).
