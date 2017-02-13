@@ -42,7 +42,7 @@ La instalación es simple y rápida, y deja al alcance del usuario la creación 
 ## Estructura básica de un libro GitBook
 
 Los libros generados a través de GitBook están formados por un archivo README.md principal, la portada del libro, y una serie de carpetas en las que
-se encontrarán los archivos README.md respectivos de cada capítulo. Además tiene un archivo book.json, archivo con la
+se encontrarán los archivos README.md respectivos de cada capítulo. Además tiene un archivo book.json con la
 configuración del libro, y un archivo SUMMARY.md, que contiene el índice del libro, ambos opcionales. 
 
 La estructura tendría un árbol de directorios similar a:
@@ -63,7 +63,7 @@ La estructura tendría un árbol de directorios similar a:
 ## Creación de un libro
 
     
--  Para crear un libro aplicando boilerplate debemos:
+-  Para crear un libro debemos:
     > $ gitbook init
     
 - Para crear el libro en otra carpeta solo tenemos que indicar la dirección de destino:
