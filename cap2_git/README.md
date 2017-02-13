@@ -32,23 +32,23 @@ Una vez completada la descarga ejecutamos el instalador.
 * Leemos el contrato de licencia y elegimos la ruta de instalación
 * Seleccionamos los componentes opcionales que queremos que sean instalados
  
-    [Imagen1](/cap2_git/images/3.png)
+    ![Imagen1](/cap2_git/images/3.png)
 
 * Escogemos si queremos utilizar Git sólo desde la Bash de Git o también desde la terminal de Windows
 
-    [Imagen2](/cap2_git/images/5.png)
+    ![Imagen2](/cap2_git/images/5.png)
     
 * Debemos configurar como tratará Git las terminaciones de línea
 
-    [Imagen3](/cap2_git/images/6.png) 
+    ![Imagen3](/cap2_git/images/6.png) 
 
 * Podemos configurar que emulador de terminal usará Git Bash
 
-    [Imagen4](/cap2_git/images/7.png) 
+    ![Imagen4](/cap2_git/images/7.png) 
 
 * Por último, podemos añadir algunas configuraciones extras
 
-    [Imagen5](/cap2_git/images/8.png) 
+    ![Imagen5](/cap2_git/images/8.png) 
 
 * Terminamos de configurar la instalación de Git a nuestro gusto y clickamos Install para completar la instalación.
 
