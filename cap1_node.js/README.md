@@ -21,16 +21,28 @@ Como se mencionó anteriormente en este tutorial se tratará la instalación med
 lo que descargamos el Windows Installer de la versión recomendada LTS. Cuando la descarga haya finalizado seguimos
 los siguientes pasos para completar la instalación.
 
-* Ejecutamos el instalador descargado ![Imagen1](/cap1_node.js/images/1.png)
-    
-* Aceptamos los términos del contrato de licencia ![Imagen2](/cap1_node.js/images/2.png)
-    
-* Elegimos la ruta de instalación para NodeJS ![Imagen3](/cap1_node.js/images/3.png)
+* Ejecutamos el instalador descargado 
 
-* En la siguiente ventana que aparece nos permite personalizar algunos aspectos de la instalación ![Imagen4](/cap1_node.js/images/4.png)
+    ![Imagen1](/cap1_node.js/images/1.png)
+    
+* Aceptamos los términos del contrato de licencia
+
+    ![Imagen2](/cap1_node.js/images/2.png)
+    
+* Elegimos la ruta de instalación para NodeJS
+
+    ![Imagen3](/cap1_node.js/images/3.png)
+
+* En la siguiente ventana que aparece nos permite personalizar algunos aspectos de la instalación
+
+    ![Imagen4](/cap1_node.js/images/4.png)
     
     Si hacemos click sobre ellos podremos observar en la zona de la derecha una explicación y el espacio que ocupará
     en disco cada una de estas caracteristicas. Gracias a un menú desplegable podemos elegir si queremos o no que
-    sean instaladas o si preferimos que sean añadidas cuando se requiera. ![Imagen5](/cap1_node.js/images/5.png)
+    sean instaladas o si preferimos que sean añadidas cuando se requiera.
+    
+    ![Imagen5](/cap1_node.js/images/5.png)
 
-* Para finalizar simplemente seleccionamos la opción Install y se llevará a cabo la instalación de NodeJS en nuestra máquina ![Imagen6](/cap1_node.js/images/6.png)
+* Para finalizar simplemente seleccionamos la opción Install y se llevará a cabo la instalación de NodeJS en nuestra máquina
+
+    ![Imagen6](/cap1_node.js/images/6.png)
