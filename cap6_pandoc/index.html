@@ -1,0 +1,404 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Capítulo 6 - Pandoc · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../cap7_ghpages/" />
+    
+    
+    <link rel="prev" href="../cap5_gitbook/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introducción
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../cap1_node.js/">
+            
+                <a href="../cap1_node.js/">
+            
+                    
+                    Capítulo 1 - Node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../cap2_git/">
+            
+                <a href="../cap2_git/">
+            
+                    
+                    Capítulo 2 - Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../cap3_github/">
+            
+                <a href="../cap3_github/">
+            
+                    
+                    Capítulo 3 - GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../cap4_markdown/">
+            
+                <a href="../cap4_markdown/">
+            
+                    
+                    Capítulo 4 - MarkDown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../cap5_gitbook/">
+            
+                <a href="../cap5_gitbook/">
+            
+                    
+                    Capítulo 5 - GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Capítulo 6 - Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../cap7_ghpages/">
+            
+                <a href="../cap7_ghpages/">
+            
+                    
+                    Capítulo 7 - GH-Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Capítulo 6 - Pandoc</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="pandoc">Pandoc</h1>
+<h3 id="conversi&#xF3;n-de-archivos-escritos-en-lenguaje-de-marcado">Conversi&#xF3;n de archivos escritos en lenguaje de marcado</h3>
+<h2 id="introducci&#xF3;n">Introducci&#xF3;n</h2>
+<p><a href="http://pandoc.org/" target="_blank">Pandoc</a> es una plataforma de conversi&#xF3;n de archivos escritos en lenguaje de marcado, tambi&#xE9;n
+llamado <strong>lenguaje de etiquetado</strong>. Puede convertir entre s&#xED; un gran n&#xFA;mero de formatos, entre los que se encuentra
+Markdown, HTML, EPUB y LaTeX, este &#xFA;ltimo &#xFA;til para la conversi&#xF3;n de documentaci&#xF3;n a PDF.</p>
+<p>Para demostrar su potencia de conversi&#xF3;n podemos destacar que soporta la ordenaci&#xF3;n de listas, notas de pie de 
+pagina, indizaci&#xF3;n superior e inferior y bloques de c&#xF3;digo con resaltado de c&#xF3;digo espec&#xED;fico para el lenguaje 
+que se determine este, entre otras capacidades.</p>
+<h2 id="instalaci&#xF3;n">Instalaci&#xF3;n</h2>
+<h3 id="instalaci&#xF3;n-en-windows-y-mac-os-x">Instalaci&#xF3;n en Windows y Mac OS X</h3>
+<p>La instalaci&#xF3;n en estos sistemas operativos se puede realizar descargando el <a href="https://github.com/jgm/pandoc/releases/tag/1.19.2.1" target="_blank">paquete de instalaci&#xF3;n</a>
+ofrecito por la p&#xE1;gina oficial:</p>
+<p><img src="images/pandoc_download.png" alt="Descarga del paquete de instalaci&#xF3;n"></p>
+<p>Una vez descargado, con ejecutarlo comenzar&#xE1; la instalaci&#xF3;n:</p>
+<p><img src="images/pandoc_installing.png" alt="Primera pantalla de instalaci&#xF3;n"></p>
+<p>Podemos tanto instalar directamente como cambiar la ruta de origen del programa pulsando en <em>advanced</em>, y
+tras un breve tiempo, Pandoc estar&#xE1; instalado en nuestro ordenador.</p>
+<p><img src="images/pandoc_installing_2.png" alt="Segunda pantalla de instalaci&#xF3;n"></p>
+<p>Tanto en Windows como en Mac OS X puede sustraer los ejecutables pandoc y pandoc-citeproc en caso de que lo
+prefiera a activar el instalador.</p>
+<h4 id="instrucciones-para-windows">Instrucciones para Windows:</h4>
+<p>En este ejemplo localizamos el programa en C:\Utils\Console\</p>
+<pre><code>mkdir &quot;%TEMP%\pandoc\&quot;
+start /wait msiexec.exe /a pandoc-1.19.1-windows.msi /qn targetdir=&quot;%TEMP%\pandoc\&quot;
+copy /y &quot;%TEMP%\pandoc\pandoc.exe&quot; C:\Utils\Console\
+copy /y &quot;%TEMP%\pandoc\pandoc-citeproc.exe&quot; C:\Utils\Console\
+rmdir /s /q &quot;%TEMP%\pandoc\&quot;
+</code></pre><h4 id="instrucciones-para-mac-os-x">Instrucciones para Mac OS X:</h4>
+<pre><code>mkdir pandoc-extract
+cd pandoc-extract
+xar -x ../pandoc-1.19.1-osx.pkg
+cat pandoc.pkg/Payload | gunzip -dc | cpio -i
+</code></pre><h3 id="instalaci&#xF3;n-en-linux-y-otras-distros">Instalaci&#xF3;n en Linux y otras distros</h3>
+<p><em>Pandoc</em> est&#xE1; en los repositorios de <a href="https://www.debian.org/index.es.html" target="_blank">Debian</a>, <a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a>, <a href="http://www.slackware.com/" target="_blank">Slackware</a>,
+<a href="https://www.archlinux.org/packages/community/x86_64/pandoc/" target="_blank">ArchLinux</a>, <a href="https://apps.fedoraproject.org/packages/pandoc" target="_blank">Fedora</a>, <a href="http://nixos.org/" target="_blank">NiXOS</a>, <a href="https://software.opensuse.org/package/pandoc" target="_blank">openSUSE</a> y <a href="https://packages.gentoo.org/packages/app-text/pandoc" target="_blank">Gentoo</a>.
+Sin embargo, hay que tener en cuenta en esta opci&#xF3;n que los archivos de los repositorios pueden estar
+desfasados. Por esta raz&#xF3;n, disponemos del c&#xF3;digo fuente actualizado para descargar y compilar.</p>
+<p>Adem&#xE1;s, en el caso de <a href="http://pkgsrc.se/wip/pandoc" target="_blank">NetBSD</a> y <a href="http://www.freshports.org/textproc/pandoc/" target="_blank">FreeBSD</a>, Pandoc est&#xE1; actualizado en repositorios.</p>
+<h3 id="instalaci&#xF3;n-a-partir-de-c&#xF3;digo-fuente">Instalaci&#xF3;n a partir de c&#xF3;digo fuente</h3>
+<p>Para instalar Pandoc a partir del c&#xF3;digo fuente el m&#xE9;todo m&#xE1;s f&#xE1;cil es a trav&#xE9;s de la instalaci&#xF3;n de la <a href="https://www.haskell.org/platform/#windows" target="_blank">plataforma Haskell</a>, instalable
+mediante paquetes de instalaci&#xF3;n y terminal. </p>
+<ul>
+<li><p>Una vez instalada la plataforma, debemos actualizar <a href="https://www.haskell.org/cabal/" target="_blank">Cabal</a>, una arquitectura para la construcci&#xF3;n de aplicaciones y librer&#xED;as.</p>
+<blockquote>
+<p>cabal update</p>
+</blockquote>
+</li>
+<li><p>Tras esto, podemos instalar Pandoc:</p>
+<blockquote>
+<p>cabal install pandoc --enable-tests</p>
+</blockquote>
+<p>  Esta l&#xED;nea de comandos ejecutar&#xE1; la instalaci&#xF3;n de la &#xFA;ltima versi&#xF3;n de Pandoc lanzada al p&#xFA;blico</p>
+</li>
+<li><p>Si desea instalar un versi&#xF3;n de Pandoc:</p>
+<blockquote>
+<p>cabal install
+  Esta l&#xED;nea de comandos debe ser lanzada en el directorio origen.</p>
+</blockquote>
+</li>
+<li><p>Tras esto pasos resta comprobar si la instalaci&#xF3;n ha sido un &#xE9;xito ejecutando alguna orden de Pandoc:</p>
+<blockquote>
+<p>pandoc --help</p>
+</blockquote>
+</li>
+<li><p>Si quiere realizar citaciones y una bibliograf&#xED;a autom&#xE1;ticamente mediante Pandoc, debe instalar <em>pandoc-citeproc</em></p>
+<blockquote>
+<p>cabal install pandoc-citeproc</p>
+</blockquote>
+<p>  El m&#xE9;todo utilizado por defecto para ordenar la bibliograf&#xED;a es el <em>i;unicode-casemap</em>. Si quiere utilizar 
+  el algoritmo de colocaci&#xF3;n, debe especificar mediante el <strong>flag de unicode_collation</strong>:</p>
+<blockquote>
+<p>cabal install pandoc-citeproc -funicode_collation</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="aspectos-b&#xE1;sicos-de-pandoc">Aspectos b&#xE1;sicos de Pandoc</h2>
+<p>La conversi&#xF3;n de archivos se realiza por terminal con la siguiente l&#xED;nea de comandos:</p>
+<blockquote>
+<p>$ pandoc [archivo origen] -f [lenguaje origen] -t [lenguaje destino]</p>
+</blockquote>
+<p>Sin embargo, la declaraci&#xF3;n del lenguaje origen y destino son opcionales, en caso de que la conversi&#xF3;n sea por
+defecto entre los lenguajes utilizados. Si la conversi&#xF3;n que desea hacer es a formato PDF es necesario tener 
+instalado LaTeX, siendo <a href="https://miktex.org/" target="_blank">Miktex</a> el recomendado por los desarrolladores.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../cap5_gitbook/" class="navigation navigation-prev " aria-label="Previous page: Capítulo 5 - GitBook">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../cap7_ghpages/" class="navigation navigation-next " aria-label="Next page: Capítulo 7 - GH-Pages">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Capítulo 6 - Pandoc","level":"1.7","depth":1,"next":{"title":"Capítulo 7 - GH-Pages","level":"1.8","depth":1,"path":"cap7_ghpages/README.md","ref":"cap7_ghpages/README.md","articles":[]},"previous":{"title":"Capítulo 5 - GitBook","level":"1.6","depth":1,"path":"cap5_gitbook/README.md","ref":"cap5_gitbook/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"cap6_pandoc/README.md","mtime":"2017-02-16T08:51:40.918Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-16T09:09:43.520Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
